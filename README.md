@@ -37,8 +37,11 @@ exit hoặc Ctrl + D
 
 ## Chạy trên Vast.ai
 Tham khảo tại: https://hub.docker.com/r/phamducduy1/ubuntu-focal-desktop-ros-noetic
+![image](https://github.com/user-attachments/assets/c595145e-287c-49f9-875d-5cafc64c2809)
 
-![image](https://github.com/user-attachments/assets/e479a8c6-8011-482b-9306-c26253279692)
+
+![image](https://github.com/user-attachments/assets/2b8e2065-4b36-4bf7-8c84-0d1a4d4a5322)
+
 Docker Options:
 ```
 -e ENABLE_AUTH=true -e ENABLE_HTTPS=true -e VNCOPTIONS="-DisableBasicAuth" -e NO_VNC_PORT=16901 -e WEBSOCKET_PORT=16901 -p 16901:16901  -e OPEN_BUTTON_PORT=6901 -e OPEN_BUTTON_TOKEN=1 -e PROXIED_PORTS=6901
